@@ -16,7 +16,7 @@ public class second_largest {
         
     }
 
-    void Ssmalest(int[] arr, int n){
+    void Ssmallest(int[] arr, int n){
         int smallest = arr[0];
         int Ssmallest = Integer.MAX_VALUE;
         
@@ -38,6 +38,6 @@ public class second_largest {
         int[] arr = {5, 2, 8, 8, 1};
         int n = arr.length;
         sol.SLargest(arr, n);
-        sol.Ssmalest(arr, n);
+        sol.Ssmallest(arr, n);
     }
 }
